@@ -51,3 +51,5 @@ Here all the features of the GeometryUtils library:
 | `triangularPrismVolume()`| <span style="color:blue">`double`</span> baseTriangular, <span style="color:blue">`double`</span> heightTriangular, <span style="color:blue">`double`</span> prismHeight | Calculates the volume of a triangular prism with the area of the triangular base, the height of the triangular base, and the height of the prism. |
 | `pentagonPrismVolume()`  | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> prismHeight            | Calculates the volume of a pentagonal prism with the length of the base side and the height of the prism. |
 | `hexagonPrismVolume()`   | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> prismHeight            | Calculates the volume of a hexagonal prism with the length of the base side and the height of the prism. |
+
+⚠️ Remember, during the development of your software, to follow the parameter order specified by the library to ensure proper functionality.
