@@ -67,3 +67,8 @@ The GeometryUtils library is available for the Java language.
    import geometryutils.GeometryUtils;
    ~~~~
 4. Use the provided methods to calculate areas, perimeters and volumes.
+
+## 💻 Author
+
+👤 Library Developed by: João Felipe
+📅 Year of Development: 2024
