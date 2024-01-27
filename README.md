@@ -56,7 +56,7 @@ Here all the features of the GeometryUtils library:
 
 ## 🔧 How to Use
 
-The GeometryUtils library is available for the Java language. ![java](https://cdn.icon-icons.com/icons2/2415/PNG/64/java_original_wordmark_logo_icon_146459.png) 
+The GeometryUtils library is available for the Java language.                                  ![java](https://cdn.icon-icons.com/icons2/2415/PNG/64/java_original_wordmark_logo_icon_146459.png) 
 
 To use the GeometryUtils library in your Java projects, follow these steps:
 
