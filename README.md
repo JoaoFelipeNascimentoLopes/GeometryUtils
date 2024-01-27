@@ -53,3 +53,16 @@ Here all the features of the GeometryUtils library:
 | `hexagonPrismVolume()`   | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> prismHeight            | Calculates the volume of a hexagonal prism with the length of the base side and the height of the prism. |
 
 ⚠️ Remember, during the development of your software, to follow the parameter order specified by the library to ensure proper functionality.
+
+## 🔧 How to Use
+
+The GeometryUtils library is available for the Java language.
+To use the GeometryUtils library in your Java projects, follow these steps:
+
+1. Download the latest JAR file.
+2. Add the library to your project following the instructions for your IDE.
+3. Import the 'GeometryUtils' class into your code:
+   ~~~~JAVA
+   import geometryutils.GeometryUtils;
+   ~~~~
+4. Use the provided methods to calculate areas, perimeters and volumes.
