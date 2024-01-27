@@ -70,5 +70,5 @@ The GeometryUtils library is available for the Java language.
 
 ## 💻 Author
 
-👤 Library Developed by: João Felipe  
+👤 Developed by: João Felipe  
 📅 Year of Development: 2024
