@@ -6,69 +6,70 @@ Este projeto, GeometryUtils, fornece uma biblioteca para cálculos eficientes de
 
 Here all the features of the GeometryUtils library:
 
-| Function                   | Parameter Order                                      | Description                                                      |
+| Função                   | Ordem dos Parâmetros                                | Descrição                                                      |
 |--------------------------|------------------------------------------------------|------------------------------------------------------------------|
-| `squareArea()`           | <span style="color:blue">`double`</span> side                                        | Calculates the area of a square with the provided side length.   |
-| `rectangleArea()`        | <span style="color:blue">`double`</span> base, <span style="color:blue">`double`</span> height                        | Calculates the area of a rectangle with the provided base and height. |
-| `triangleAreaHeron()`    | <span style="color:blue">`double`</span> sideA, <span style="color:blue">`double`</span> sideB, <span style="color:blue">`double`</span> sideC          | Calculates the area of a triangle using Heron's Formula with the provided side lengths. |
-| `triangleAreaEquilateral()` | <span style="color:blue">`double`</span> side                                        | Calculates the area of an equilateral triangle with the provided side length. |
-| `triangleArea()`         | <span style="color:blue">`double`</span> base, <span style="color:blue">`double`</span> height                         | Calculates the area of a right-angled triangle with the provided base and height. |
-| `circleArea()`           | <span style="color:blue">`double`</span> radius                                      | Calculates the area of a circle with the provided radius.         |
-| `trapezeArea()`          | <span style="color:blue">`double`</span> base1, <span style="color:blue">`double`</span> base2, <span style="color:blue">`double`</span> height          | Calculates the area of a trapezoid with the provided base lengths and height. |
-| `parallelogramArea()`    | <span style="color:blue">`double`</span> base, <span style="color:blue">`double`</span> height                         | Calculates the area of a parallelogram with the provided base and height. |
-| `rhombusArea()`          | <span style="color:blue">`double`</span> diagonal1, <span style="color:blue">`double`</span> diagonal2                 | Calculates the area of a rhombus with the provided diagonal lengths. |
-| `hexagonArea()`          | <span style="color:blue">`double`</span> side                                        | Calculates the area of a regular hexagon with the provided side length. |
-| `pentagonArea()`         | <span style="color:blue">`double`</span> side                                        | Calculates the area of a regular pentagon with the provided side length. |
-| `heptagonArea()`         | <span style="color:blue">`double`</span> side                                        | Calculates the area of a regular heptagon with the provided side length. |
-| `octagonArea()`          | <span style="color:blue">`double`</span> side                                        | Calculates the area of a regular octagon with the provided side length. |
-| `squarePerimeter()`      | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a square with the provided side length. |
-| `rectanglePerimeter()`   | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a rectangle with the provided side length. |
-| `trianglePerimeter()`    | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of an equilateral triangle with the provided side length. |
-| `circlePerimeter()`      | <span style="color:blue">`double`</span> radius                                      | Calculates the perimeter of a circle with the provided radius.     |
-| `trapezePerimeter()`     | <span style="color:blue">`double`</span> sideA, <span style="color:blue">`double`</span> sideB, <span style="color:blue">`double`</span> sideC, <span style="color:blue">`double`</span> sideD | Calculates the perimeter of a trapezoid with the provided side lengths. |
-| `parallelogramPerimeter()`| <span style="color:blue">`double`</span> sideA, <span style="color:blue">`double`</span> sideB, <span style="color:blue">`double`</span> sideC, <span style="color:blue">`double`</span> sideD | Calculates the perimeter of a parallelogram with the provided side lengths. |
-| `rhombusPerimeter()`     | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a rhombus with the provided side length. |
-| `hexagonPerimeter()`     | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a regular hexagon with the provided side length. |
-| `pentagonPerimeter()`    | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a regular pentagon with the provided side length. |
-| `heptagonPerimeter()`    | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a regular heptagon with the provided side length. |
-| `octagonPerimeter()`     | <span style="color:blue">`double`</span> side                                        | Calculates the perimeter of a regular octagon with the provided side length. |
-| `cubeArea()`             | <span style="color:blue">`double`</span> side                                        | Calculates the surface area of a cube with the provided side length. |
-| `parallelepipedArea()`   | <span style="color:blue">`double`</span> length, <span style="color:blue">`double`</span> width, <span style="color:blue">`double`</span> height | Calculates the surface area of a parallelepiped with the provided dimensions. |
-| `sphereArea()`           | <span style="color:blue">`double`</span> radius                                      | Calculates the surface area of a sphere with the provided radius.   |
-| `triangularPyramidArea()`| <span style="color:blue">`double`</span> sideA, <span style="color:blue">`double`</span> sideB, <span style="color:blue">`double`</span> sideC, <span style="color:blue">`double`</span> height | Calculates the surface area of a triangular pyramid with the provided side lengths and height. |
-| `squarePyramidArea()`    | <span style="color:blue">`double`</span> side, <span style="color:blue">`double`</span> height                         | Calculates the surface area of a square pyramid with the provided side length and height. |
-| `pentagonPyramidArea()`  | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> apothem                   | Calculates the surface area of a pentagonal pyramid with the provided length of the base side and apothem. |
-| `hexagonPyramidArea()`   | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> apothem                   | Calculates the surface area of a hexagonal pyramid with the provided length of the base side and apothem. |
-| `cubeVolume()`           | <span style="color:blue">`double`</span> side                                        | Calculates the volume of a cube with the provided side length.      |
-| `parallelepipedVolume()` | <span style="color:blue">`double`</span> length, <span style="color:blue">`double`</span> width, <span style="color:blue">`double`</span> height | Calculates the volume of a parallelepiped with the provided dimensions. |
-| `sphereVolume()`         | <span style="color:blue">`double`</span> radius                                      | Calculates the volume of a sphere with the provided radius.        |
-| `triangularPyramidVolume()` | <span style="color:blue">`double`</span> baseTriangular, <span style="color:blue">`double`</span> heightTriangular, <span style="color:blue">`double`</span> pyramidHeight | Calculates the volume of a triangular pyramid with the area of the triangular base, the height of the triangular base, and the height of the pyramid. |
-| `squarePyramidVolume()`  | <span style="color:blue">`double`</span> baseLength, <span style="color:blue">`double`</span> baseWidth, <span style="color:blue">`double`</span> pyramidHeight | Calculates the volume of a square pyramid with the length of the base, the width of the base, and the height of the pyramid. |
-| `pentagonPyramidVolume()`| <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> pyramidHeight             | Calculates the volume of a pentagonal pyramid with the length of the base side and the height of the pyramid. |
-| `hexagonPyramidVolume()` | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> pyramidHeight             | Calculates the volume of a hexagonal pyramid with the length of the base side and the height of the pyramid. |
-| `cylinderVolume()`       | <span style="color:blue">`double`</span> radius, <span style="color:blue">`double`</span> height                   | Calculates the volume of a cylinder with the radius of the base and the height. |
-| `coneVolume()`           | <span style="color:blue">`double`</span> radius, <span style="color:blue">`double`</span> height                   | Calculates the volume of a cone with the radius of the base and the height. |
-| `triangularPrismVolume()`| <span style="color:blue">`double`</span> baseTriangular, <span style="color:blue">`double`</span> heightTriangular, <span style="color:blue">`double`</span> prismHeight | Calculates the volume of a triangular prism with the area of the triangular base, the height of the triangular base, and the height of the prism. |
-| `pentagonPrismVolume()`  | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> prismHeight            | Calculates the volume of a pentagonal prism with the length of the base side and the height of the prism. |
-| `hexagonPrismVolume()`   | <span style="color:blue">`double`</span> baseSide, <span style="color:blue">`double`</span> prismHeight            | Calculates the volume of a hexagonal prism with the length of the base side and the height of the prism. |
+| `squareArea()`           | <span style="color:blue">`double`</span> lado                                       | Calcula a área de um quadrado com o comprimento do lado fornecido.   |
+| `rectangleArea()`        | <span style="color:blue">`double`</span> base, <span style="color:blue">`double`</span> altura                      | Calcula a área de um retângulo com a base e altura fornecidas. |
+| `triangleAreaHeron()`    | <span style="color:blue">`double`</span> ladoA, <span style="color:blue">`double`</span> ladoB, <span style="color:blue">`double`</span> ladoC          | Calcula a área de um triângulo usando a Fórmula de Heron com os comprimentos dos lados fornecidos. |
+| `triangleAreaEquilateral()` | <span style="color:blue">`double`</span> lado                                       | Calcula a área de um triângulo equilátero com o comprimento do lado fornecido. |
+| `triangleArea()`         | <span style="color:blue">`double`</span> base, <span style="color:blue">`double`</span> altura                       | Calcula a área de um triângulo retângulo com a base e altura fornecidas. |
+| `circleArea()`           | <span style="color:blue">`double`</span> raio                                       | Calcula a área de um círculo com o raio fornecido.         |
+| `trapezeArea()`          | <span style="color:blue">`double`</span> base1, <span style="color:blue">`double`</span> base2, <span style="color:blue">`double`</span> altura         | Calcula a área de um trapézio com os comprimentos das bases e altura fornecidos. |
+| `parallelogramArea()`    | <span style="color:blue">`double`</span> base, <span style="color:blue">`double`</span> altura                      | Calcula a área de um paralelogramo com a base e altura fornecidas. |
+| `rhombusArea()`          | <span style="color:blue">`double`</span> diagonal1, <span style="color:blue">`double`</span> diagonal2              | Calcula a área de um losango com os comprimentos das diagonais fornecidos. |
+| `hexagonArea()`          | <span style="color:blue">`double`</span> lado                                       | Calcula a área de um hexágono regular com o comprimento do lado fornecido. |
+| `pentagonArea()`         | <span style="color:blue">`double`</span> lado                                       | Calcula a área de um pentágono regular com o comprimento do lado fornecido. |
+| `heptagonArea()`         | <span style="color:blue">`double`</span> lado                                       | Calcula a área de um heptágono regular com o comprimento do lado fornecido. |
+| `octagonArea()`          | <span style="color:blue">`double`</span> lado                                       | Calcula a área de um octógono regular com o comprimento do lado fornecido. |
+| `squarePerimeter()`      | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um quadrado com o comprimento do lado fornecido. |
+| `rectanglePerimeter()`   | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um retângulo com o comprimento do lado fornecido. |
+| `trianglePerimeter()`    | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um triângulo equilátero com o comprimento do lado fornecido. |
+| `circlePerimeter()`      | <span style="color:blue">`double`</span> raio                                       | Calcula o perímetro de um círculo com o raio fornecido.     |
+| `trapezePerimeter()`     | <span style="color:blue">`double`</span> ladoA, <span style="color:blue">`double`</span> ladoB, <span style="color:blue">`double`</span> ladoC, <span style="color:blue">`double`</span> ladoD | Calcula o perímetro de um trapézio com os comprimentos dos lados fornecidos. |
+| `parallelogramPerimeter()`| <span style="color:blue">`double`</span> ladoA, <span style="color:blue">`double`</span> ladoB, <span style="color:blue">`double`</span> ladoC, <span style="color:blue">`double`</span> ladoD | Calcula o perímetro de um paralelogramo com os comprimentos dos lados fornecidos. |
+| `rhombusPerimeter()`     | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um losango com o comprimento do lado fornecido. |
+| `hexagonPerimeter()`     | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um hexágono regular com o comprimento do lado fornecido. |
+| `pentagonPerimeter()`    | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um pentágono regular com o comprimento do lado fornecido. |
+| `heptagonPerimeter()`    | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um heptágono regular com o comprimento do lado fornecido. |
+| `octagonPerimeter()`     | <span style="color:blue">`double`</span> lado                                       | Calcula o perímetro de um octógono regular com o comprimento do lado fornecido. |
+| `cubeArea()`             | <span style="color:blue">`double`</span> lado                                       | Calcula a área superficial de um cubo com o comprimento do lado fornecido. |
+| `parallelepipedArea()`   | <span style="color:blue">`double`</span> comprimento, <span style="color:blue">`double`</span> largura, <span style="color:blue">`double`</span> altura | Calcula a área superficial de um paralelepípedo com as dimensões fornecidas. |
+| `sphereArea()`           | <span style="color:blue">`double`</span> raio                                       | Calcula a área superficial de uma esfera com o raio fornecido.   |
+| `triangularPyramidArea()`| <span style="color:blue">`double`</span> ladoA, <span style="color:blue">`double`</span> ladoB, <span style="color:blue">`double`</span> ladoC, <span style="color:blue">`double`</span> altura | Calcula a área superficial de uma pirâmide triangular com os comprimentos dos lados e altura fornecidos. |
+| `squarePyramidArea()`    | <span style="color:blue">`double`</span> lado, <span style="color:blue">`double`</span> altura                      | Calcula a área superficial de uma pirâmide quadrada com o comprimento do lado e altura fornecidos. |
+| `pentagonPyramidArea()`  | <span style="color:blue">`double`</span> ladoBase, <span style="color:blue">`double`</span> apótema                 | Calcula a área superficial de uma pirâmide pentagonal com o comprimento da base lateral e apótema fornecidos. |
+| `hexagonPyramidArea()`   | <span style="color:blue">`double`</span> ladoBase, <span style="color:blue">`double`</span> apótema                 | Calcula a área superficial de uma pirâmide hexagonal com o comprimento da base lateral e apótema fornecidos. |
+| `cubeVolume()`           | <span style="color:blue">`double`</span> lado                                       | Calcula o volume de um cubo com o comprimento do lado fornecido.      |
+| `parallelepipedVolume()` | <span style="color:blue">`double`</span> comprimento, <span style="color:blue">`double`</span> largura, <span style="color:blue">`double`</span> altura | Calcula o volume de um paralelepípedo com as dimensões fornecidas. |
+| `sphereVolume()`         | <span style="color:blue">`double`</span> raio                                       | Calcula o volume de uma esfera com o raio fornecido.        |
+| `triangularPyramidVolume()` | <span style="color:blue">`double`</span> baseTriangular, <span style="color:blue">`double`</span> alturaTriangular, <span style="color:blue">`double`</span> alturaPirâmide | Calcula o volume de uma pirâmide triangular com a área da base triangular, a altura da base triangular e a altura da pirâmide. |
+| `squarePyramidVolume()`  | <span style="color:blue">`double`</span> comprimentoBase, <span style="color:blue">`double`</span> larguraBase, <span style="color:blue">`double`</span> alturaPirâmide | Calcula o volume de uma pirâmide quadrada com o comprimento da base, a largura da base e a altura da pirâmide. |
+| `pentagonPyramidVolume()`| <span style="color:blue">`double`</span> ladoBase, <span style="color:blue">`double`</span> alturaPirâmide            | Calcula o volume de uma pirâmide pentagonal com o comprimento do lado da base e a altura da pirâmide. |
+| `hexagonPyramidVolume()` | <span style="color:blue">`double`</span> ladoBase, <span style="color:blue">`double`</span> alturaPirâmide            | Calcula o volume de uma pirâmide hexagonal com o comprimento do lado da base e a altura da pirâmide. |
+| `cylinderVolume()`       | <span style="color:blue">`double`</span> raio, <span style="color:blue">`double`</span> altura                  | Calcula o volume de um cilindro com o raio da base e a altura. |
+| `coneVolume()`           | <span style="color:blue">`double`</span> raio, <span style="color:blue">`double`</span> altura                  | Calcula o volume de um cone com o raio da base e a altura. |
+| `triangularPrismVolume()`| <span style="color:blue">`double`</span> baseTriangular, <span style="color:blue">`double`</span> alturaTriangular, <span style="color:blue">`double`</span> alturaPrisma | Calcula o volume de um prisma triangular com a área da base triangular, a altura da base triangular e a altura do prisma. |
+| `pentagonPrismVolume()`  | <span style="color:blue">`double`</span> ladoBase, <span style="color:blue">`double`</span> alturaPrisma           | Calcula o volume de um prisma pentagonal com o comprimento do lado da base e a altura do prisma. |
+| `hexagonPrismVolume()`   | <span style="color:blue">`double`</span> ladoBase, <span style="color:blue">`double`</span> alturaPrisma           | Calcula o volume de um prisma hexagonal com o comprimento do lado da base e a altura do prisma. |
 
-⚠️ Remember, during the development of your software, to follow the parameter order specified by the library to ensure proper functionality.
+⚠️ Lembre-se, durante o desenvolvimento do seu software, de seguir a ordem dos parâmetros especificada pela biblioteca para garantir o funcionamento adequado.
 
-## 🔧 How to Use
+## 🔧 Como Usar
 
-The GeometryUtils library is available for the Java language. 
+A biblioteca GeometryUtils está disponível para a linguagem Java.
 
-![java](https://cdn.icon-icons.com/icons2/2415/PNG/32/java_original_wordmark_logo_icon_146459.png) To use the GeometryUtils library in your Java projects, follow these steps:
+![java](https://cdn.icon-icons.com/icons2/2415/PNG/32/java_original_wordmark_logo_icon_146459.png) Para usar a biblioteca GeometryUtils em seus projetos Java, siga estas etapas:
 
-1. Download the latest JAR file.
-2. Add the library to your project following the instructions for your IDE.
-3. Import the 'GeometryUtils' class into your code:
+1. Baixe o arquivo JAR mais recente.
+2. Adicione a biblioteca ao seu projeto seguindo as instruções do seu IDE.
+3. Importe a classe 'GeometryUtils' no seu código:
    ~~~~java
    import geometryutils.GeometryUtils;
    ~~~~
-4. Use the provided methods to calculate areas, perimeters and volumes.
+4. Utilize os métodos fornecidos para calcular áreas, perímetros e volumes.
 
-## 💻 Author
+## 💻 Autor
 
-👤 Developed by: João Felipe  
-📅 Year of Development: 2024
+👤 Desenvolvido por: João Felipe  
+📅 Ano de Desenvolvimento: 2024
+
