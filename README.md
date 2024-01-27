@@ -62,7 +62,7 @@ To use the GeometryUtils library in your Java projects, follow these steps:
 1. Download the latest JAR file.
 2. Add the library to your project following the instructions for your IDE.
 3. Import the 'GeometryUtils' class into your code:
-   ~~~~JAVA
+   ~~~~
    import geometryutils.GeometryUtils;
    ~~~~
 4. Use the provided methods to calculate areas, perimeters and volumes.
