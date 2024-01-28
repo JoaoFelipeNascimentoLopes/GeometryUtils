@@ -58,7 +58,7 @@ Aqui estão os recursos da biblioteca GeometryUtils:
 
 A biblioteca GeometryUtils está disponível para a linguagem Java.
 
-[![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)] Para usar a biblioteca GeometryUtils em seus projetos Java, siga estas etapas:
+![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) Para usar a biblioteca GeometryUtils em seus projetos Java, siga estas etapas:
 
 1. Baixe o arquivo JAR mais recente.
 2. Adicione a biblioteca ao seu projeto seguindo as instruções do seu IDE.
