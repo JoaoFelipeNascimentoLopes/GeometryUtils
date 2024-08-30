@@ -1,4 +1,4 @@
-# 📐 GeometryUtils
+# 📐 GeometryUtils - Biblioteca Para Cálculos Geométricos
 
 Este projeto, GeometryUtils, fornece uma biblioteca para cálculos de áreas, perímetros e volumes de figuras geométricas bidimensionais e tridimensionais. Esta solução abrangente facilita o desenvolvimento de aplicações que envolvem a manipulação e análise de formas geométricas, oferecendo métodos simples.
 
